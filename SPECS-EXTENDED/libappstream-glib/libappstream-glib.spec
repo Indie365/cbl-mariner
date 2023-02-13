@@ -80,7 +80,7 @@ from a directory of packages.
 
 %build
 %meson \
-    -Dgtk-doc=true \
+    -Dgtk-doc=false \
     -Dstemmer=true \
     -Ddep11=false
 %meson_build
